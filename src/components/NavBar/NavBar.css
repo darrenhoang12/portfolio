@@ -24,7 +24,7 @@
   text-decoration: none;
   color: #eebeb0;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 1.5vw;
   padding: 10px;
   border-radius: 4px;
 }
@@ -47,7 +47,7 @@
 }
 
 .name a {
-  font-size: 26px;
+  font-size: 1.5vw;
   padding-top: 10px;
   font-weight: bold;
   color: #eebeb0;
