@@ -1,4 +1,5 @@
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
   background: #eebeb0;
 }
 
@@ -16,6 +17,7 @@
 }
 
 .section {
+  position: relative;
   width: 100vw;
-  text-align: center;
+  justify-content: 100vh;
 }
