@@ -12,7 +12,7 @@ import Contact from "../Contact/Contact.jsx";
 const FullPageScroll = () => {
   useEffect(() => {
     new fullpage("#fullpage", {
-      sectionsColor: ["#2b2b2b", "#2b2b2b", "#2b2b2b", "#2b2b2b"],
+      sectionsColor: ["#2F3E46", "#2F3E46", "#2F3E46", "#2F3E46"],
       navigation: true,
       menu: "#navbar",
       anchors: ["home", "about", "projects", "contact"],

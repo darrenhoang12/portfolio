@@ -6,9 +6,15 @@ const Projects = () => {
     <div className="section" data-anchor="projects">
       <div className="projects-wrapper">
         <div className="projects">
-          <div className="mario_rl">Mario RL</div>
-          <div className="nba_mvp">NBA MVP</div>
-          <div className="bps_multi">BPS MultiLabeling</div>
+          <a href="https://github.com/darrenhoang12/Mario_RL" target="_blank" className="mario_rl">
+            Mario RL
+          </a>
+          <a href="https://github.com/darrenhoang12/nba_mvp_predictor" target="_blank" className="nba_mvp">
+            NBA MVP
+          </a>
+          <a href="https://github.com/darrenhoang12/BPS_multi_labeling" target="_blank"className="bps_multi">
+            BPS MultiLabeling
+          </a>
         </div>
       </div>
     </div>

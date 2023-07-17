@@ -1,4 +1,5 @@
 /* Projects.css */
+
 .projects-wrapper {
   display: flex;
   justify-content: center;
@@ -9,13 +10,35 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Center the project links horizontally within the flex container */
+  gap: 20px; /* Add a gap between the project links */
 }
 
-.projects > div {
-  width: 300px;
-  height: 200px;
-  margin: 10px;
+.projects > a {
+  width: 25vw;
+  height: 25vw;
   padding: 20px;
   border: 1px solid black;
   border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.projects > a:hover {
+  transform: scale(1.1);
+}
+
+.projects > a:not(:hover) {
+  transform: scale(0.9);
+}
+
+.mario_rl {
+  background-color: #add8e6;
+}
+
+.nba_mvp {
+  background-color: #98fb98;
+}
+
+.bps_multi {
+  background-color: #e6e6fa;
 }

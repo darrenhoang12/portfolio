@@ -22,20 +22,16 @@
 
 .navbar a {
   text-decoration: none;
-  color: #eebeb0;
-  font-weight: bold;
   font-size: 1.5vw;
   padding: 10px;
-  border-radius: 4px;
 }
 
-.navbar a:hover {
-  background-color: #eebeb0;
-  color: #333;
+ul {
+  padding-inline-start: 0px;
 }
 
 .name {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 25%;
@@ -50,5 +46,24 @@
   font-size: 1.5vw;
   padding-top: 10px;
   font-weight: bold;
-  color: #eebeb0;
+}
+
+@keyframes glowing {
+  0% {
+    color: #CAD2C5;
+    text-shadow: 0 0 5px #CAD2C5;
+  }
+  100% {
+    color: #CAD2C5;
+    text-shadow: 0 0 20px #CAD2C5;
+  }
+}
+
+.wholebar a {
+  text-decoration: none;
+  color: #84A98C;
+}
+
+.wholebar a:hover {
+  animation: glowing 0.25s forwards;
 }
