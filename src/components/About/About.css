@@ -1,14 +1,12 @@
 .about {
     position: absolute;
-    background-color: #CAD2C5;
+    background-color: rgba(202, 210, 197, 0.4);
     color: #2F3E46;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50vw;
     height: 70vh;
-    justify-content: center;
-    opacity: 40%;
     border-radius: 20px;
     padding: 20px 100px;
   }

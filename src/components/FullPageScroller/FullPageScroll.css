@@ -20,4 +20,7 @@
   position: relative;
   width: 100vw;
   justify-content: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

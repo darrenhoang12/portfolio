@@ -1,3 +1,14 @@
+.bar_opacity {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  opacity: 25%;
+  z-index: 997;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -18,6 +29,7 @@
 .navbar li {
   margin-right: 20px;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar a {
@@ -45,6 +57,7 @@ ul {
 .name a {
   font-size: 1.5vw;
   padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: bold;
 }
 
@@ -61,7 +74,7 @@ ul {
 
 .wholebar a {
   text-decoration: none;
-  color: #84A98C;
+  color: #CAD2C5;
 }
 
 .wholebar a:hover {

@@ -7,16 +7,17 @@ const Projects = () => {
       <div className="projects-wrapper">
         <div className="projects">
           <a href="https://github.com/darrenhoang12/nba_mvp_predictor" target="_blank" className="nba_mvp project">
-            <h2 className="title">MVP Predicter</h2>
+            <h2 className="title">MVP Predictor</h2>
             <p className="description">
-              Description for NBA MVP Predictor
+              Scraped NBA player data and built regression models to accurately predict the MVP of the
+              season based purely on stats. 
             </p>
           </a>
           <a href="https://github.com/darrenhoang12/Mario_RL" target="_blank" className="mario_rl project">
             <h2 className="title">Mario Agent</h2>
             <p className="description">
-              Implemented an autonomous Mario agent that is capable of playing Super Mario Bros entirely
-              on its own using PyTorch.
+              Trained a reinforcement learning agent that is capable of playing Super Mario Bros entirely
+              on its own.
             </p>
           </a>
           <a href="https://github.com/darrenhoang12/BPS_multi_labeling" target="_blank"className="bps_multi project">

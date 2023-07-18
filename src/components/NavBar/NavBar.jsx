@@ -4,6 +4,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div className="wholebar">
+      <div className='bar_opacity'></div>
       <div className="name">
         <a href="#landing">darren hoang</a>
       </div>

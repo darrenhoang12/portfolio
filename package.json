@@ -14,8 +14,7 @@
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scroll": "^1.8.9",
-    "react-scroll-section": "^3.2.5"
+    "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

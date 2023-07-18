@@ -40,11 +40,13 @@
 
 .projects > .mario_rl {
   background-image: url("images/mario_static.png");
+  background-position: center bottom 40px;
+  background-color: black;
 }
 
 .projects > .mario_rl:hover {
   background-image: url("images/mario_giphy.gif");
-  background-position: center;
+  background-position: center bottom 40px;
 }
 
 .projects > .nba_mvp {
@@ -79,12 +81,21 @@
 }
 
 .title {
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
   color: #cad2c5;
-  background-color: #2f3e46;
+  background-color: rgba(47, 62, 70, 0.7);
   font-size: 2vw;
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
+.projects > *:hover .title {
+  opacity: 0;
+  visibility: hidden;
+} 
 
 .description {
   opacity: 0;
@@ -94,7 +105,7 @@
   left: 50%;
   transform: translateX(-50%);
   color: #cad2c5;
-  background-color: #2f3e46;
+  background-color: rgba(47, 62, 70, 0.7);
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
   width: calc(100% - 40px);
