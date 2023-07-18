@@ -1,5 +1,3 @@
-/* Projects.css */
-
 .projects-wrapper {
   display: flex;
   justify-content: center;
@@ -10,35 +8,100 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center the project links horizontally within the flex container */
-  gap: 20px; /* Add a gap between the project links */
+  justify-content: center;
+  gap: 20px;
 }
 
-.projects > a {
+.projects > .project {
+  position: relative;
   width: 25vw;
-  height: 25vw;
+  height: 35vw;
   padding: 20px;
   border: 1px solid black;
   border-radius: 20px;
   transition: transform 0.3s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projects > .project::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
+.projects > .mario_rl {
+  background-image: url("images/mario_static.png");
+}
+
+.projects > .mario_rl:hover {
+  background-image: url("images/mario_giphy.gif");
+  background-position: center;
+}
+
+.projects > .nba_mvp {
+  background-image: url("images/nba_static.png");
+}
+
+.projects > .nba_mvp:hover {
+  background-image: url("images/nba_giphy.gif");
+}
+
+.projects > .bps_multi {
+  background-image: url("images/space_static.png");
+}
+
+.projects > .bps_multi:hover {
+  background-image: url("images/space_giphy.gif")
 }
 
 .projects > a:hover {
-  transform: scale(1.1);
+  transform: scale(1.025);
 }
 
 .projects > a:not(:hover) {
   transform: scale(0.9);
 }
 
-.mario_rl {
-  background-color: #add8e6;
+.projects > * .title {
+  position: absolute;
+  opacity: 1;
+  margin: 0;
+  z-index: 1;
 }
 
-.nba_mvp {
-  background-color: #98fb98;
+.title {
+  color: #cad2c5;
+  background-color: #2f3e46;
+  font-size: 2vw;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
 }
 
-.bps_multi {
-  background-color: #e6e6fa;
+.description {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #cad2c5;
+  background-color: #2f3e46;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  width: calc(100% - 40px);
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.projects > *:hover .description {
+  opacity: 1;
+  visibility: visible;
 }

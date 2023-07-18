@@ -18,9 +18,12 @@ const FullPageScroll = () => {
       anchors: ["home", "about", "projects", "contact"],
       scrollingSpeed: 700,
       easingcss3: "ease-in-out",
+      // Fade in animation
+      /*
       afterLoad: (origin, destination, direction) => {
         destination.item.classList.add("fade-in");
       },
+      */
     });
   }, []);
 

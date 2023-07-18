@@ -6,7 +6,7 @@ const About = () => {
     <div className="section" data-anchor="about">
       <div className="about">
         <div>
-          
+          <p>This is about me</p>
         </div>
       </div>
     </div>
