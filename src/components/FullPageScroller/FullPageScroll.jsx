@@ -4,6 +4,7 @@ import "fullpage.js/dist/fullpage.min.css";
 
 import "./FullPageScroll.css";
 import NavBar from "../NavBar/NavBar.jsx";
+import Links from "../Links/Links.jsx";
 import Landing from "../Landing/Landing.jsx";
 import About from "../About/About.jsx";
 import Projects from "../Projects/Projects.jsx";
@@ -30,6 +31,7 @@ const FullPageScroll = () => {
   return (
     <div>
       <NavBar />
+      <Links />
       <div id="fullpage">
         <Landing />
         <About />

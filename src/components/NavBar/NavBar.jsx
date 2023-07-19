@@ -22,6 +22,9 @@ const NavBar = () => {
           <li>
             <a href="#contact">contact</a>
           </li>
+          <li>
+            <a>resume</a>
+          </li>
         </ul>
       </nav>
     </div>
