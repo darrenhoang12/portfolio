@@ -30,7 +30,6 @@ const FullPageScroll = () => {
         <Landing />
         <About />
         <Projects />
-        <Contact />
       </div>
     </div>
   );
