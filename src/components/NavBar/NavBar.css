@@ -1,14 +1,3 @@
-.bar_opacity {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  background-color: black;
-  opacity: 25%;
-  z-index: 997;
-}
-
 .navbar {
   position: fixed;
   top: 0;
@@ -19,6 +8,7 @@
   align-items: center;
   justify-content: center;
   z-index: 998;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar ul {
@@ -79,4 +69,17 @@ ul {
 
 .wholebar a:hover {
   animation: glowing 0.25s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar {
+  animation: fadeIn 1s ease-in;
 }
