@@ -1,0 +1,13 @@
+.contact {
+    position: absolute;
+    background-color: rgba(202, 210, 197, 0.4);
+    color: #2F3E46;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 20px 100px;
+  }
+  

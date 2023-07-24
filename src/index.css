@@ -14,6 +14,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+@font-face {
+  font-family: 'Questrial';
+  src: url('./font/Questrial-Regular.ttf')
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -29,7 +34,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  font-family: 'Montserrat';
+  font-family: 'Questrial';
 }
 
 h1 {
