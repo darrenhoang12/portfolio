@@ -8,7 +8,6 @@ import Links from "../Links/Links.jsx";
 import Landing from "../Landing/Landing.jsx";
 import About from "../About/About.jsx";
 import Projects from "../Projects/Projects.jsx";
-import Contact from "../Contact/Contact.jsx";
 
 const FullPageScroll = () => {
   useEffect(() => {

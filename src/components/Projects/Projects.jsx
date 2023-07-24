@@ -10,8 +10,9 @@ const Projects = () => {
             <h2 className="title">MVP Predictor</h2>
             <ul className="tech">
               <li>python</li>
-              <li>selenium</li>
               <li>sk-learn</li>
+              <li>bs4</li>
+              <li>selenium</li>
             </ul>
             <p className="description">
               Scraped NBA player data and built regression models to accurately predict the MVP of the
