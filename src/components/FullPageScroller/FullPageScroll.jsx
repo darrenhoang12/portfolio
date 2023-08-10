@@ -27,7 +27,7 @@ const FullPageScroll = () => {
       <Links />
       <div id="fullpage">
         <Landing />
-        <About />
+        <About/>
         <Projects />
       </div>
     </div>

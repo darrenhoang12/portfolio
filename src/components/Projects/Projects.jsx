@@ -4,7 +4,6 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div className="section" data-anchor="projects">
-      <div className="projects-wrapper">
         <div className="projects">
           <a href="https://github.com/darrenhoang12/nba_mvp_predictor" target="_blank" className="nba_mvp project">
             <h2 className="title">MVP Predictor</h2>
@@ -28,7 +27,7 @@ const Projects = () => {
             </ul>
             <p className="description">
               Trained a reinforcement learning agent that is capable of playing Super Mario Bros entirely
-              on its own.
+              on its own using the Double Q-Learning algorithm.
             </p>
           </a>
           <a href="https://github.com/darrenhoang12/BPS_multi_labeling" target="_blank"className="bps_multi project">
@@ -41,12 +40,12 @@ const Projects = () => {
             </ul>
             <p className="description">
               Retrieved irradiated mouse cell image data from AWS and implemented a supervised
-              learning model to predict types of radiation and damage incurred.
+              learning model to predict types of radiation and damage incurred. Collaborated with
+              NASA GeneLab Scientists.
             </p>
           </a>
         </div>
       </div>
-    </div>
   );
 };
 

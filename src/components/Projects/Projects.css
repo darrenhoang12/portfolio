@@ -1,15 +1,11 @@
-.projects-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding-top: 50px;
+  width: 100vw;
+  height: 80vh;
 }
 
 .projects > .project {
@@ -82,8 +78,6 @@
 
 .title {
   position: absolute;
-  opacity: 1;
-  visibility: visible;
   color: #cad2c5;
   background-color: rgba(47, 62, 70, 0.7);
   font-size: 2vw;
@@ -92,15 +86,11 @@
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-.projects > *:hover .title {
-  opacity: 0;
-  visibility: hidden;
-} 
-
 .description {
   opacity: 0;
   visibility: hidden;
   position: absolute;
+  font-size: 1.25vw;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
@@ -121,6 +111,7 @@
   opacity: 0;
   visibility: hidden;
   position: absolute;
+  font-size: 1.25vw;
   top: 0;
   right: 20px;
   display: column;
