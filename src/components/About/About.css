@@ -1,7 +1,7 @@
 .about {
   position: absolute;
-  background-color: rgba(202, 210, 197, 0.4);
-  color: #2f3e46;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #CAD2C5;
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);

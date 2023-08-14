@@ -16,8 +16,8 @@ const About = () => {
           </p>
           <h2><strong>Some of my current interests</strong></h2>
             <ul>
-              <li>Hitting the green &nbsp;<b className='emoji'>⛳</b></li>
-              <li>Zelda and Red Dead Redemption &nbsp;<b className='emoji'>👾</b></li>
+              <li>Golfing &nbsp;<b className='emoji'>⛳</b></li>
+              <li>Horror Movies &nbsp;<b className='emoji'>👻</b></li>
               <li>House and Hip-hop &nbsp;<b className='emoji'>🎶</b></li>
               <li>Escape Rooms &nbsp;<b className='emoji'>🔑</b></li>
             </ul>

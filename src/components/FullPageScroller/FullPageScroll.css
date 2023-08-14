@@ -7,11 +7,16 @@
   display: none;
 }
 
-.section {
-  position: relative;
-  width: 100vw;
-  justify-content: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#fullpage-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/landing-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1; 
+  opacity: 0.4;
 }

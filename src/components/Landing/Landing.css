@@ -1,18 +1,3 @@
-.landing-image {
-  margin: 0;
-  padding: 0;
-  background-image: url("./images/landing-background.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  opacity: 0.3;
-  z-index: 0;
-}
 
 @keyframes fadeIn {
   from {
