@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className="wholebar">
       <div className="name">
-        <a href="#landing">darren hoang</a>
+        <a href="#landing" className="name-anchor"><img className='logo-nav' src="/images/logo.png"/></a>
       </div>
       <nav className="navbar">
         <ul>
