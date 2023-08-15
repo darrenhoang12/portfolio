@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 .about-text h1 {

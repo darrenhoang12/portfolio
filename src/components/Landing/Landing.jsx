@@ -8,7 +8,7 @@ const Landing = () => {
       <div className="landing-content">
         <h1 className="landing-text">darren hoang</h1>
         <p>
-          machine learning software engineer from california
+          software engineer from california
         </p>
       </div>
     </div>
