@@ -14,7 +14,7 @@ const About = () => {
           in data. Learning is a big part of my journey, and I'm determined to make a positive impact in the tech industry 
           down the line.
           </p>
-          <h2><strong>Some of my current interests</strong></h2>
+          <h2><strong>Some of my interests!</strong></h2>
             <ul>
               <li>Golfing &nbsp;<b className='emoji'>⛳</b></li>
               <li>Horror Movies &nbsp;<b className='emoji'>👻</b></li>
