@@ -2,10 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 20px;
-  padding-top: 16vh;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
+  padding-top: 10vh;
 }
 
 .projects > .project {
