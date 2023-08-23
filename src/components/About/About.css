@@ -51,7 +51,14 @@
 
 .about-pic {
   flex: 1;
-  padding: 0 40px;
+  padding: 20px 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.about-pic img {
+  border-radius: 20px;
 }
 
 .about-text h1 {
