@@ -36,30 +36,30 @@
 }
 
 .projects > .mario_rl {
-  background-image: url("images/mario_static.png");
+  background-image: url("/src/assets/images/mario_static.png");
   background-position: center bottom 40px;
   background-color: black;
 }
 
 .projects > .mario_rl:hover {
-  background-image: url("images/mario_giphy.gif");
+  background-image: url("/src/assets/images/mario_giphy.gif");
   background-position: center bottom 40px;
 }
 
 .projects > .nba_mvp {
-  background-image: url("images/nba_static.png");
+  background-image: url("/src/assets/images/nba_static.png");
 }
 
 .projects > .nba_mvp:hover {
-  background-image: url("images/nba_giphy.gif");
+  background-image: url("/src/assets/images/nba_giphy.gif");
 }
 
 .projects > .bps_multi {
-  background-image: url("images/space_static.png");
+  background-image: url("/src/assets/images/space_static.png");
 }
 
 .projects > .bps_multi:hover {
-  background-image: url("images/space_giphy.gif")
+  background-image: url("/src/assets/images/space_giphy.gif")
 }
 
 .projects > a:hover {

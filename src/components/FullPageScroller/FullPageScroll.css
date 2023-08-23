@@ -13,7 +13,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('images/landing-background.jpeg');
+  background-image: url('/src/assets/images/landing-background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

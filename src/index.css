@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: 'Questrial';
-  src: url('./font/Questrial-Regular.ttf')
+  src: url('/src/assets/font/Questrial-Regular.ttf')
 }
 
 a {
