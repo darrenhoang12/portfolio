@@ -52,7 +52,7 @@
 .about-pic {
   display: flex;
   justify-content: center;
-  padding: 10px 30px;
+  padding: 30px 30px;
 }
 
 .about-pic img {
