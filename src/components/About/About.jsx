@@ -37,7 +37,7 @@ const About = () => {
           </ul>
         </div>
         <div className="about-pic">
-          <img src="images/golf-about.jpeg" />
+          <img src="/src/assets/images/golf-about.jpeg" />
         </div>
       </div>
     </div>
