@@ -17,13 +17,31 @@
   text-align: center;
   align-items: center;
   animation: fadeIn 1s ease-in;
+  display: flex;
 }
 
 .landing-content * {
   color: #CAD2C5;
 }
 
-.landing-content h1 {
+.landing-text h1 {
   font-size: 4rem;
-  margin: 16px;
+  margin: 16px 0;
+  margin-bottom: 2px;
+}
+
+.landing-text p {
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+.landing-text {
+  text-align: left;
+  padding-left: 60px;
+}
+
+.landing-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
