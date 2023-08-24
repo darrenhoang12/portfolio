@@ -22,7 +22,7 @@ const About = () => {
               <li>Escape Rooms &nbsp;<b className='emoji'>🔑</b></li>
             </ul>
         </div>
-        <div className="about-pic"><img src="images/about.JPG"/></div>
+        <div className="about-pic"><img src="images/golf-about.jpeg"/></div>
       </div>
     </div>
   );

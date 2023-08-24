@@ -7,8 +7,7 @@ const Links = () => {
       <li className="link github">
         <a href="https://github.com/darrenhoang12" target="_blank">
           <svg
-            width="2vw"
-            height="5vh"
+            width="35px"
             viewBox="0 0 98 96"
             xmlns="http://www.w3.org/2000/svg"
             fill="#CAD2C5"
@@ -26,8 +25,7 @@ const Links = () => {
         <a href="https://www.linkedin.com/in/darrenhoang/" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="2vw"
-            height="5vh"
+            width="30px"
             viewBox="0 0 24 24"
             fill="#CAD2C5"
             preserveAspectRatio="xMidYMid meet"
@@ -40,8 +38,7 @@ const Links = () => {
         <a href="mailto:darrenhoang12@gmail.com" target="_blank">
           <svg
             fill="#CAD2C5"
-            height="2vw"
-            width="5vh"
+            width="30px"
             version="1.1"
             id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"
