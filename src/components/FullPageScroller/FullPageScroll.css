@@ -1,6 +1,6 @@
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
-  background: #CAD2C5;
+  background: #cad2c5;
 }
 
 .fp-watermark {
@@ -13,10 +13,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/src/assets/images/landing-background.jpeg');
+  background-image: url("/src/assets/images/landing-background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: -1; 
+  z-index: -1;
   opacity: 0.4;
 }

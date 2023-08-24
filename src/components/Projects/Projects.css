@@ -59,7 +59,7 @@
 }
 
 .projects > .bps_multi:hover {
-  background-image: url("/src/assets/images/space_giphy.gif")
+  background-image: url("/src/assets/images/space_giphy.gif");
 }
 
 .projects > a:hover {
@@ -123,7 +123,7 @@
   transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
-.projects >*:hover .tech {
+.projects > *:hover .tech {
   opacity: 1;
   visibility: visible;
 }

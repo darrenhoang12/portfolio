@@ -51,18 +51,18 @@ ul {
 
 @keyframes glowing {
   0% {
-    color: #CAD2C5;
-    text-shadow: 0 0 5px #CAD2C5;
+    color: #cad2c5;
+    text-shadow: 0 0 5px #cad2c5;
   }
   100% {
-    color: #CAD2C5;
-    text-shadow: 0 0 20px #CAD2C5;
+    color: #cad2c5;
+    text-shadow: 0 0 20px #cad2c5;
   }
 }
 
 .wholebar a {
   text-decoration: none;
-  color: #CAD2C5;
+  color: #cad2c5;
 }
 
 .wholebar a:hover {

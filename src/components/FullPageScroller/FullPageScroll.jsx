@@ -12,7 +12,12 @@ import Projects from "../Projects/Projects.jsx";
 const FullPageScroll = () => {
   useEffect(() => {
     new fullpage("#fullpage", {
-      sectionsColor: ["transparent", "transparent", "transparent", "transparent"], // Set sections to transparent
+      sectionsColor: [
+        "transparent",
+        "transparent",
+        "transparent",
+        "transparent",
+      ], // Set sections to transparent
       navigation: true,
       menu: "#navbar",
       anchors: ["home", "about", "projects", "contact"],

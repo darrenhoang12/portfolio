@@ -5,7 +5,9 @@ const NavBar = () => {
   return (
     <div className="wholebar">
       <div className="name">
-        <a href="#landing" className="name-anchor"><img className='logo-nav' src="/images/logo.png"/></a>
+        <a href="#landing" className="name-anchor">
+          <img className="logo-nav" src="/images/logo.png" />
+        </a>
       </div>
       <nav className="navbar">
         <ul>
@@ -19,7 +21,12 @@ const NavBar = () => {
             <a href="#projects">projects</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1i6jDusJBVpBMjcaQcEixbO6qcWTFFjw0/view?usp=sharing" target="_blank">resume</a>
+            <a
+              href="https://drive.google.com/file/d/1i6jDusJBVpBMjcaQcEixbO6qcWTFFjw0/view?usp=sharing"
+              target="_blank"
+            >
+              resume
+            </a>
           </li>
         </ul>
       </nav>

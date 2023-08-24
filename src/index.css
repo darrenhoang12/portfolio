@@ -15,8 +15,8 @@
 }
 
 @font-face {
-  font-family: 'Questrial';
-  src: url('/src/assets/font/Questrial-Regular.ttf')
+  font-family: "Questrial";
+  src: url("/src/assets/font/Questrial-Regular.ttf");
 }
 
 a {
@@ -34,7 +34,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  font-family: 'Questrial';
+  font-family: "Questrial";
 }
 
 h1 {
