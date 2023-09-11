@@ -58,6 +58,7 @@
 .about-pic img {
   border-radius: 20px;
   box-sizing: border-box;
+  width: 22vw;
 }
 
 .about-text h1 {
