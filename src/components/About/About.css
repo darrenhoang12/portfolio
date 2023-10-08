@@ -5,13 +5,110 @@
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70vw;
-  height: 75vh;
   border-radius: 20px;
-  display: flex;
-  flex-direction: row;
   padding: 20px;
   margin-top: 4px;
+}
+
+@media only screen and (max-width: 999px) {
+  .about {
+    width: 400px;
+    height: 400px;
+  }
+
+  .about-pic {
+    display: none;
+  }
+
+  .about-pic img {
+    display: none;
+  }
+
+  .about-text h1 {
+    font-size: 30px;
+  }
+
+  .about-text p {
+    font-size: 13px;
+  }
+
+  .about-text h2 {
+    font-size: 18px;
+  }
+
+  .about-text ul {
+    font-size: 13px;
+  }
+
+  .emoji {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .about {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-pic img {
+    width: 200px;
+  }
+
+  .about-text h1 {
+    font-size: 35px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .about-text h2 {
+    font-size: 18px;
+  }
+
+  .about-text ul {
+    font-size: 15px;
+  }
+
+  .emoji {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about {
+    width: 900px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-pic img {
+    width: 250px;
+  }
+
+  .about-text h1 {
+    font-size: 40px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+  }
+
+  .about-text ul {
+    font-size: 15px;
+  }
+
+  .emoji {
+    font-size: 20px;
+  }
 }
 
 .about-text {
@@ -25,28 +122,20 @@
 
 .about-text h1 {
   margin: 0;
-  font-size: 3vw;
 }
 
 .about-text p {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 1.25vw;
 }
 
 .about-text h2 {
-  font-size: 1.5vw;
   margin: 0;
 }
 
 .about-text ul {
-  font-size: 1.25vw;
   padding-left: 25px;
   margin: 0;
-}
-
-.emoji {
-  font-size: 1.5vw;
 }
 
 .about-pic {
@@ -58,9 +147,6 @@
 .about-pic img {
   border-radius: 20px;
   box-sizing: border-box;
-  width: 22vw;
 }
 
-.about-text h1 {
-  margin-bottom: 0;
-}
+

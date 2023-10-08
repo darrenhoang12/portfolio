@@ -37,7 +37,7 @@ const About = () => {
           </ul>
         </div>
         <div className="about-pic">
-          <img src="images/golf-about.jpeg" />
+          <img src="images/golf-about.jpeg" alt='Picture of me swinging an iron!'/>
         </div>
       </div>
     </div>
