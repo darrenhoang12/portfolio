@@ -11,7 +11,7 @@ import Projects from "../Projects/Projects.jsx";
 
 const FullPageScroll = () => {
   useEffect(() => {
-    new fullpage("#fullpage", {
+    const fullPageInstance = new fullpage("#fullpage", {
       sectionsColor: [
         "transparent",
         "transparent",
@@ -24,6 +24,13 @@ const FullPageScroll = () => {
       scrollingSpeed: 700,
       easingcss3: "ease-in-out",
     });
+
+    // Destroy Fullpage.js instance when the component is unmounted
+    return () => {
+      if (fullPageInstance) {
+        fullPageInstance.destroy("all");
+      }
+    };
   }, []);
 
   return (
