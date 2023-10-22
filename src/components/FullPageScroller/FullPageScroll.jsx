@@ -34,7 +34,7 @@ const FullPageScroll = () => {
   }, []);
 
   return (
-    <div>
+    <div className="bg-color-div">
       <div id="fullpage-container"></div>
       <NavBar />
       <Links />
