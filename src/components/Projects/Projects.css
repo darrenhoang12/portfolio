@@ -5,8 +5,6 @@
   align-content: flex-start;
   gap: 20px;
   width: 100vw;
-  height: 90vh;
-  padding-top: 10vh;
 }
 
 .projects > .project {
@@ -80,6 +78,10 @@
   .tech {
     font-size: .75rem;
   }
+
+  .projects {
+    padding-top: 5vh;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -101,7 +103,8 @@
   }
 
   .projects {
-    height: 60vh;
+    padding-top: 20vh;
+    height: 80vh;
   }
 }
 
@@ -124,6 +127,7 @@
   }
 
   .projects {
+    padding-top: 15vh;
     height: 80vh;
   }
 }
