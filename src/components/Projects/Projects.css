@@ -1,10 +1,11 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  align-content: flex-start;
-  gap: 20px;
+  height: 90vh;
   width: 100vw;
+  padding-top: 10vh;
 }
 
 .projects > .project {
@@ -35,10 +36,6 @@
 
   .tech {
     font-size: .75rem;
-  }
-
-  .projects {
-    padding-top: 50px;
   }
 }
 
@@ -78,10 +75,6 @@
   .tech {
     font-size: .75rem;
   }
-
-  .projects {
-    padding-top: 5vh;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -101,11 +94,6 @@
   .tech {
     font-size: 1rem;
   }
-
-  .projects {
-    padding-top: 20vh;
-    height: 80vh;
-  }
 }
 
 @media only screen and (min-width: 1500px) {
@@ -124,11 +112,6 @@
 
   .tech {
     font-size: 1.5rem;
-  }
-
-  .projects {
-    padding-top: 15vh;
-    height: 80vh;
   }
 }
 
