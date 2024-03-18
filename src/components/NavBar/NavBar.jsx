@@ -22,7 +22,7 @@ const NavBar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1i6jDusJBVpBMjcaQcEixbO6qcWTFFjw0/view?usp=sharing"
+              href="https://drive.google.com/file/d/1iAe2rXhunGmq6cUDNMIOAqwriWzyKi_w/view?usp=sharing"
               target="_blank"
             >
               resume
